@@ -15,6 +15,7 @@ class SpringJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test Loading...");
+		logger.info("Test Loading changes two...");
 		assertEquals(true, true);
 	}
 
